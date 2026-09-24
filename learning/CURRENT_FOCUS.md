@@ -1,47 +1,52 @@
 # Current Focus
 
-Keep this small enough to make real progress.
+**Active cycle:** 2026-09-25 → 2026-10-24
 
-## Primary — System Design & Engineering Depth
+Detailed plan: [Month 1 Learning Plan](monthly/2026-09-25_to_2026-10-24.md)
 
-### Why now
-I want my strongest foundation to be understanding and designing reliable software systems, not only implementing features.
+## Required this month
 
-### Current topics
-- Database transactions and isolation.
-- Indexing and query behavior.
-- Caching.
-- Queues and asynchronous work.
-- Concurrency.
-- Reliability and failure handling.
-- Architecture trade-offs.
-- Networking and operating-system fundamentals.
+Only three learning outcomes are required:
 
-## Secondary — AI / LLM Systems
+1. **Database transactions and isolation**
+2. **Web request lifecycle — DNS → TCP → TLS → HTTP → application**
+3. **Transformers and embeddings — high-level mental model**
 
-### Why now
-I want AI to become an engineering medium I understand, not a black box I only call through APIs.
+Also complete:
 
-### Current topics
-- Neural-network foundations.
-- Transformers and attention.
-- Embeddings.
-- RAG.
-- Tool calling.
-- Agent architecture.
-- Memory.
-- Evaluation.
+- one tiny experiment;
+- one monthly review on 2026-10-24.
 
-## Exploration — Creativity & Design
+## Anti-distraction rule
 
-### Why
-I want to understand how creative ideas form, how design works beneath aesthetics, and how unrelated ideas can be combined.
+Anything interesting that is **not required for one of the three outcomes** goes into:
 
-### Current topics
-- Visual hierarchy.
-- Interaction design.
-- Motion.
-- Architecture and industrial design.
-- Game design.
-- Psychology.
-- Creativity.
+- `LEARNING_BACKLOG.md`, or
+- `../curiosity/QUESTIONS.md`.
+
+I do not promote a side topic into the current month just because it is interesting.
+
+The only exception is when I genuinely cannot understand the current topic without it.
+
+## Not this month
+
+These may be valuable, but they are intentionally deferred:
+
+- distributed systems;
+- event sourcing;
+- CQRS;
+- message queues;
+- reinforcement learning;
+- multi-agent systems;
+- advanced security;
+- advanced UI/design study;
+- deep OS internals;
+- deep database internals.
+
+They remain in the backlog.
+
+## Success condition
+
+I do not need to finish a large number of topics.
+
+I need to be able to **explain, demonstrate, and connect** the three required topics by 2026-10-24.
