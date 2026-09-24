@@ -8,14 +8,16 @@ Detailed plan: [Month 1 Learning Plan](monthly/2026-09-25_to_2026-10-24.md)
 
 Only three learning outcomes are required:
 
-1. **Database transactions and isolation**
-2. **Web request lifecycle — DNS → TCP → TLS → HTTP → application**
+1. **PostgreSQL foundations + transactions/isolation**
+2. **Web request lifecycle — DNS → TCP → TLS → HTTP → application → PostgreSQL**
 3. **Transformers and embeddings — high-level mental model**
 
 Also complete:
 
 - one tiny experiment;
 - one monthly review on 2026-10-24.
+
+PostgreSQL is part of the existing database outcome, not a fourth topic.
 
 ## Anti-distraction rule
 
@@ -33,6 +35,8 @@ The only exception is when I genuinely cannot understand the current topic witho
 These may be valuable, but they are intentionally deferred:
 
 - distributed systems;
+- PostgreSQL replication/sharding/HA;
+- pgvector/PostGIS/extensions;
 - event sourcing;
 - CQRS;
 - message queues;
@@ -49,4 +53,4 @@ They remain in the backlog.
 
 I do not need to finish a large number of topics.
 
-I need to be able to **explain, demonstrate, and connect** the three required topics by 2026-10-24.
+I need to be able to **explain, demonstrate, and connect** the three required outcomes by 2026-10-24.
