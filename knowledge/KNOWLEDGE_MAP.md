@@ -35,15 +35,35 @@ This is an honest snapshot, not a résumé.
 - Memory and performance behavior.
 
 ## Databases
-**Level: 3**
+**Overall level: 2–3**
 
 ### I can
-- Work with MySQL, PostgreSQL, and MongoDB.
-- Design schemas and relationships.
-- Build transactional application workflows.
-- Use migrations and indexes.
+- Work with MySQL and MongoDB in application development.
+- Design relational schemas and relationships.
+- Build database-backed application workflows.
+- Use migrations and indexes at an application level.
+
+### PostgreSQL
+**Level: 0–1 — encountered, not yet independently understood**
+
+**Reality check recorded: 2026-09-24**
+
+PostgreSQL has appeared in projects and recommendations, but I do not yet consider myself able to use or explain it independently.
+
+Month 1 learning goal:
+- setup and `psql`;
+- databases/tables/data types;
+- CRUD;
+- constraints;
+- relationships and joins;
+- aggregation;
+- basic indexes;
+- transactions and isolation.
+
+I should only raise this level after producing hands-on evidence.
 
 ### Still learning deeply
+- PostgreSQL.
 - MVCC.
 - Isolation anomalies and locking.
 - Query planners.
