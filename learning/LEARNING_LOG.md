@@ -1,17 +1,34 @@
 # Learning Log
 
-Add short dated entries as your understanding changes.
+Record learning only after it actually happens.
 
-## YYYY-MM-DD
+Use the exact date in ISO format:
 
-### Learned
+`YYYY-MM-DD`
+
+Do not pre-fill future learning as completed.
+
+## Entry template
+
+### YYYY-MM-DD
+
+**Focused topic:**  
+...
+
+**What I learned:**
 - ...
 
-### Built / tested
+**What I built / tested:**
 - ...
 
-### Questions created
+**What changed in my understanding:**
 - ...
 
-### What changed in my understanding
+**Questions created:**
 - ...
+
+**Side topics captured instead of chasing:**
+- ...
+
+**Evidence:**
+- project, experiment, explanation, commit, or other proof
