@@ -1,19 +1,37 @@
 # Idea Inbox
 
-A parking lot for ideas. Interesting does not automatically mean worth building.
+Ideas stay cheap until evidence says they deserve serious investment.
 
-## Idea
+## Natural-language coding workflow orchestrator
 
-**Problem / observation:**  
-...
+**Observation:** Long AI coding sessions require repeated manual supervision: continue prompts, timeout checks, phase tracking, and recovery.
 
-**Idea:**  
-...
+**Idea:** A supervisor that understands a project plan and watches agent execution, deciding whether to continue, retry, stop, or escalate.
 
-**Why it interests me:**  
-...
+**Smallest experiment:** Model one coding session as a state machine and simulate completion, timeout, and failure events.
 
-**Smallest experiment:**  
-...
+**Status:** explore
 
-**Status:** inbox
+---
+
+## Personal knowledge graph
+
+**Observation:** Normal note systems collect information but do not clearly represent what a person understands, their evidence, gaps, questions, or changing beliefs.
+
+**Idea:** A Git-based knowledge graph where understanding, curiosity, projects, evidence, and reflection evolve together.
+
+**Smallest experiment:** This repository.
+
+**Status:** active
+
+---
+
+## Event-sourced agent memory
+
+**Observation:** Mutable agent memory can become noisy and difficult to audit.
+
+**Idea:** Represent agent experience as immutable events and derive working state from them.
+
+**Smallest experiment:** Toy event log plus deterministic state reconstruction.
+
+**Status:** curiosity
