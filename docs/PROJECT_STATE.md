@@ -10,18 +10,6 @@ Maintain a reusable public knowledge-graph framework on `main` and Sanam's evolv
 ## Completed foundation
 Open-source foundation complete.
 
-### Main includes
-- reusable Markdown knowledge-graph skeleton
-- polished public README
-- MIT License
-- contribution guide
-- code of conduct
-- getting-started guide
-- privacy and safety guidance
-- pull request template
-- framework issue templates
-- repository .gitignore
-
 ## Active personal phase
 
 ### Month 1 learning cycle
@@ -30,20 +18,30 @@ Open-source foundation complete.
 
 The first learning cycle is intentionally minimal.
 
-Required topics:
+Required outcomes:
 
-1. Database transactions and isolation.
-2. Web request lifecycle: DNS → TCP → TLS → HTTP → application.
+1. PostgreSQL foundations + transactions/isolation.
+2. Web request lifecycle: DNS → TCP → TLS → HTTP → application → PostgreSQL.
 3. Transformers and embeddings at a high-level mental-model level.
+
+PostgreSQL was added on 2026-09-24 by folding it into the existing database outcome rather than adding a fourth topic.
 
 Required outputs:
 
-- one tiny experiment connecting concepts;
+- one tiny experiment;
 - one monthly review on 2026-10-24.
 
 Detailed plan:
 
 `learning/monthly/2026-09-25_to_2026-10-24.md`
+
+## Knowledge correction — 2026-09-24
+
+The knowledge map previously grouped PostgreSQL with databases Sanam could already use independently.
+
+Sanam clarified that PostgreSQL has appeared in projects but is not yet independently understood.
+
+The knowledge map now records PostgreSQL separately at Level 0–1 until hands-on evidence justifies raising it.
 
 ## Learning decision
 Curiosity must not continually expand the active roadmap.
@@ -64,7 +62,9 @@ Planned dates may be written in roadmap files, but completed learning should onl
 ## Verification
 - `main/knowledge/KNOWLEDGE_MAP.md` remains generic.
 - `sanam/knowledge/KNOWLEDGE_MAP.md` contains the personal knowledge map.
-- `learning/CURRENT_FOCUS.md` now contains only Month 1 essentials.
+- `learning/CURRENT_FOCUS.md` contains only Month 1 essentials.
+- PostgreSQL is now part of the Month 1 database outcome.
+- PostgreSQL is no longer overstated as an independently known skill.
 - The wider learning backlog remains deferred.
 - `learning/LEARNING_LOG.md` uses dated, evidence-based entries.
 
@@ -82,4 +82,4 @@ Planned dates may be written in roadmap files, but completed learning should onl
 - The temporary setup branch `chore/open-source-foundation` is merged and can be deleted later with explicit approval.
 
 ## Next phase
-Use the Month 1 plan. Add dated learning evidence as it happens instead of expanding the roadmap.
+Start the Month 1 PostgreSQL foundation on 2026-09-25 and add dated learning evidence as it actually happens.
