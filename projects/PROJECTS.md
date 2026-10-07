@@ -64,3 +64,11 @@ Projects are evidence of applied knowledge.
 - UI/UX critique
 
 **Learning value:** A deliberate counterbalance to backend-only thinking.
+
+---
+
+## Deployment registry
+
+For the audited GitHub-wide deployment status, free-hosting topology, domain plan, deployment priorities, and repository-by-repository classification, see [Deployment Registry](DEPLOYMENT_REGISTRY.md).
+
+The registry is the source of truth for deciding **what should be deployed, where, and when**. It should be updated when a project becomes live or its deployment readiness materially changes.
